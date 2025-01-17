@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.authors          = { 'Nathan Tannar' => 'nathantannar4@gmail.com' }
     s.homepage         = 'https://github.com/nathantannar4/InputBarAccessoryView'
-    s.source           = { :git => 'https://github.com/nathantannar4/InputBarAccessoryView.git', :tag => '5.4.0' }
+    s.source           = { :git => 'ssh://git@github.com/HaleXie/InputBarAccessoryView.git', :commit => '8fcc05dd941b9f00aa7309bfa3cd073a4429962f' }
     s.frameworks       = 'UIKit'
     s.default_subspecs = 'Core'
     s.platform = :ios
