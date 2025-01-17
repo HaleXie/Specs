@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = "vipaar-cmf"
-    s.version                   = "1.1.0-LIBCMF-14-1"
+    s.version                   = "1.1.0-LIBCMF-14"
     s.summary                   = "Chunked Message Framing"
     s.homepage                  = "https://github.com/VIPAAR/libcmf"
     s.license                   = "Copyright (c) 2024 VIPAAR, LLC."

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = "vipaar-rcl"
-  s.version                   = "1.1.0-LIBRCL-20-1"
+  s.version                   = "1.1.0-LIBRCL-20"
   s.summary                   = "Reliable Connection Layer"
   s.homepage                  = "https://github.com/VIPAAR/librcl"
   s.license                   = "Copyright (c) 2016 VIPAAR, LLC."
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS'           => '-ObjC',
   }
   
-  s.dependency                'vipaar-cmf', '1.1.0-LIBCMF-14-1'
+  s.dependency                'vipaar-cmf', '1.1.0-LIBCMF-14'
   s.dependency                'PromisesObjC', '2.4.0'
 end
