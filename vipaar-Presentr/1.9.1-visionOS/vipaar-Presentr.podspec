@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Daniel Lozano" => "dan@danielozano.com" }
   s.social_media_url   = "http://twitter.com/danlozanov"
-  s.platform     = :ios
-  s.ios.deployment_target     = '14.0'
+  s.platform = :ios
+  s.ios.deployment_target = '14.0'
   s.visionos.deployment_target = '2.0'
   s.swift_version = "5.0"
   s.source       = { :git => "ssh://git@github.com/HaleXie/Presentr.git", :commit => "1d14c8144d619e5d22bb5aabceb251ad4d96a83e" }
