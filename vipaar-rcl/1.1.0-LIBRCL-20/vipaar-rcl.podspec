@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage                  = "https://github.com/VIPAAR/librcl"
   s.license                   = "Copyright (c) 2016 VIPAAR, LLC."
   s.author                    = "Help Lightning"
-  s.source                    = { :git => "ssh://git@github.com/HaleXie/librcl.git", :commit => "9640cbfced808e6a6245bdb1f6343edf2363d846"}
+  s.source                    = { :git => "ssh://git@github.com/HaleXie/librcl.git", :commit => "2299472759662824bf3b66342fb1bd221d7bf1aa"}
   s.source_files              = "ios-native/HLRCL/**/*.{h,m}"
   s.private_header_files      = 'ios-native/HLRCL/**/*+Internal*.h'
   s.prefix_header_file        = 'ios-native/HLRCL/HLRCLPrefix.pch'
