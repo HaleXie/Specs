@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage                  = "https://github.com/VIPAAR/libcmf"
     s.license                   = "Copyright (c) 2024 VIPAAR, LLC."
     s.author                    = "Help Lightning"
-    s.source                    = { :git => "ssh://git@github.com/HaleXie/libcmf.git", :commit => "1814427fd075ce27bd5a868404d4e65cd6a0a342"}
+    s.source                    = { :git => "ssh://git@github.com/HaleXie/libcmf.git", :commit => "9ff9807dd196a0f9927f52dc810f7e98e9e9bf53"}
     s.source_files              = "ios-native/HLCMF/**/*.{h,m}"
     s.private_header_files      = 'ios-native/HLCMF/**/*+Internal*.h'
     s.requires_arc              = true
