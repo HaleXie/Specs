@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   
     s.static_framework = false
     s.requires_arc     = true
-    s.default_subspecs = 'ZoomVideoSDK'
+    s.default_subspecs = 'ZoomVideoSDK', 'zoomcml'
     # MARK: - Subspecs
   
     s.subspec 'ZoomVideoSDK' do |ss|
