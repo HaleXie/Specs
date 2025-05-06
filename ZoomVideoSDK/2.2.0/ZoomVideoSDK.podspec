@@ -48,9 +48,10 @@ Pod::Spec.new do |s|
       :type => :zip,
       :sha1 => "db69ab18922be769286aa82d01745e076fd61f2c"
     }
-  
+
     s.static_framework = false
     s.requires_arc     = true
+    s.default_subspecs = 'ZoomVideoSDK', 'zoomcml'
     # MARK: - Subspecs
   
     s.subspec 'ZoomVideoSDK' do |ss|
