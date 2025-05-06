@@ -45,7 +45,8 @@ Pod::Spec.new do |s|
   
     s.source = {
       :http => 'https://github.com/zoom/zoom-video-sdk-iOS/releases/download/v#{s.version}/zoom-video-sdk-iOS.zip',
-      :type => :zip
+      :type => :zip,
+      :sha1 => "db69ab18922be769286aa82d01745e076fd61f2c"
     }
   
     s.static_framework = false
