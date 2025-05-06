@@ -48,12 +48,6 @@ Pod::Spec.new do |s|
       :type => :zip,
       :sha1 => "db69ab18922be769286aa82d01745e076fd61f2c"
     }
-
-    s.preserve_paths            = "distributive"
-    s.prepare_command           = <<-CMD
-      mkdir distributive
-      mv *[^distributive]* distributive
-    CMD
   
     s.static_framework = false
     s.requires_arc     = true
