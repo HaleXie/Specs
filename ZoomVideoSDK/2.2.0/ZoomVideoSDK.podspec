@@ -27,16 +27,16 @@ Pod::Spec.new do |s|
   * Test different rendering schema and enjoy high-quality video and audio streams
   * Broadcast the video session to third-party live streaming providers
   
-  To know more, see: https://marketplace.zoom.us/docs/sdk/video/introduction
+  To know more, see: https://developers.zoom.us/docs/video-sdk/
     DESC
   
-    s.homepage         = 'https://marketplace.zoom.us/docs/sdk/video/introduction'
-    s.documentation_url= 'https://marketplace.zoom.us/docs/sdk/video/introduction'
+    s.homepage         = 'https://developers.zoom.us/docs/video-sdk/'
+    s.documentation_url= 'https://developers.zoom.us/docs/video-sdk/'
   
     s.license = {
       :type => 'Zoom Video SDK Terms of Service',
       :text => <<-LICENSE
-  Use of this SDK is subject to our [License and Terms of Use](https://explore.zoom.us/docs/en-us/video-sdk-terms.html);
+  Use of this SDK is subject to our [License and Terms of Use](https://www.zoom.com/en/trust/video-sdk-terms/);
       LICENSE
     }
   
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   
     s.static_framework = false
     s.requires_arc     = true
-  
+    s.default_subspecs = 'ZoomVideoSDK'
     # MARK: - Subspecs
   
     s.subspec 'ZoomVideoSDK' do |ss|
