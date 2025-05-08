@@ -9,14 +9,15 @@
   s.platform        = :ios
   s.libraries       = 'c++'
   s.source_files    = 'source/**/*.cc', 'include/**/*.h'
+  s.public_header_files = 'include/**/*.h'
   s.header_dir = 'include'
   s.header_mappings_dir = 'include'
   s.pod_target_xcconfig       = {
       'GCC_PREPROCESSOR_DEFINITIONS' => 'LIBYUV_DISABLE_NEON=1 LIBYUV_DISABLE_SME=1 LIBYUV_DISABLE_SVE=1',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
+#      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
   }
   s.user_target_xcconfig      = {
-    'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
+ #   'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
   }
 
 
