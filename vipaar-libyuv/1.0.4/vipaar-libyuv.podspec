@@ -10,7 +10,7 @@
   s.libraries       = 'c++'
   s.source_files    = 'source/**/*.cc', 'include/**/*.h'
 #  s.public_header_files = 'include/**/*.h'
-  s.header_dir = 'include'
+  # s.header_dir = 'include'
   s.header_mappings_dir = 'include'
   s.pod_target_xcconfig       = {
       'GCC_PREPROCESSOR_DEFINITIONS' => 'LIBYUV_DISABLE_NEON=1 LIBYUV_DISABLE_SME=1 LIBYUV_DISABLE_SVE=1',
