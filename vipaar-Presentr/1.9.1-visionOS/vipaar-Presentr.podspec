@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.visionos.deployment_target = '2.0'
   s.swift_version = "5.0"
-  s.source       = { :git => "ssh://git@github.com/HaleXie/Presentr.git", :commit => "1d14c8144d619e5d22bb5aabceb251ad4d96a83e" }
+  s.source       = { :git => "ssh://git@github.com/HaleXie/Presentr.git", :commit => "06da738c889c38ecf0306c1def0f77f6af6504e4" }
   s.source_files = "Presentr/**/*.{swift}"
   s.resources    = "Presentr/**/*.{xib,ttf}"
   s.module_name  = "Presentr"
