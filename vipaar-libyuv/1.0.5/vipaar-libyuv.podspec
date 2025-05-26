@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name            = "vipaar-libyuv"
-  s.version         = "1.0.4"
+  s.version         = "1.0.5"
   s.summary         = "libyuv - compiled and stored on VIPAAR's dropbox for easy  dependency integration"
   s.homepage        = "https://chromium.googlesource.com/libyuv/libyuv"
   s.license         = { :type => 'BSD', :text => 'Copyright 2011. The LibYuv Project Authors. All Rights Reserved.' }
