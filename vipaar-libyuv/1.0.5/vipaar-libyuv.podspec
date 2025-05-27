@@ -8,10 +8,10 @@
   s.source          = { :git => 'https://chromium.googlesource.com/libyuv/libyuv', :commit => '4db2af62dab48895226be6b52737247e898ebe36'}
   s.platform        = :ios, "16.0"
   s.libraries       = 'c++'
-  s.source_files    = 'source/**/*.cc', 'include/**/*.h'
+  s.source_files    = 'source/**/*.{cc,h}', 'include/**/*.h'
   s.public_header_files = 'include/**/*.h'
   s.header_mappings_dir = 'include'
-  s.module_name = 'libyuv'
+  s.module_name = 'HLYUV'
   s.pod_target_xcconfig       = {
       'GCC_PREPROCESSOR_DEFINITIONS' => 'LIBYUV_DISABLE_NEON=1 LIBYUV_DISABLE_SME=1 LIBYUV_DISABLE_SVE=1',
   }
