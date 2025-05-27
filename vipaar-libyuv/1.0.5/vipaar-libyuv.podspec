@@ -6,15 +6,18 @@
   s.license         = { :type => 'BSD', :text => 'Copyright 2011. The LibYuv Project Authors. All Rights Reserved.' }
   s.author          = 'The LibYuv Project Authors' 
   s.source          = { :git => 'https://chromium.googlesource.com/libyuv/libyuv', :commit => '4db2af62dab48895226be6b52737247e898ebe36'}
-  s.platform        = :ios, "16.0"
+  s.platform        = :ios
   s.libraries       = 'c++'
-  s.source_files    = 'source/**/*.{cc,h}', 'include/**/*.h'
+  s.source_files    = 'source/**/*.cc', 'include/**/*.h'
   s.public_header_files = 'include/**/*.h'
   s.header_mappings_dir = 'include'
-  s.module_name = 'HLYUV'
+  s.module_name = 'libyuv'
   s.pod_target_xcconfig       = {
-      'GCC_PREPROCESSOR_DEFINITIONS' => 'LIBYUV_DISABLE_NEON=1 LIBYUV_DISABLE_SME=1 LIBYUV_DISABLE_SVE=1',
-      'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'      
+    'GCC_PREPROCESSOR_DEFINITIONS' => 'LIBYUV_DISABLE_NEON=1 LIBYUV_DISABLE_SME=1 LIBYUV_DISABLE_SVE=1',
+    'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
+  }
+  s.user_target_xcconfig      = {
+    'HEADER_SEARCH_PATHS'    => '"$(PODS_ROOT)/vipaar-libyuv/include"'
   }
 
 end
