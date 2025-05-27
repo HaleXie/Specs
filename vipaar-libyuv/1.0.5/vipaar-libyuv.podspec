@@ -7,6 +7,7 @@
   s.author          = 'The LibYuv Project Authors' 
   s.source          = { :git => 'https://chromium.googlesource.com/libyuv/libyuv', :commit => '4db2af62dab48895226be6b52737247e898ebe36'}
   s.platform        = :ios
+  s.ios.deployment_target = '16.0'  
   s.libraries       = 'c++'
   s.source_files    = 'source/**/*.cc', 'include/**/*.h'
   s.public_header_files = 'include/**/*.h'
