@@ -41,7 +41,7 @@ To know more, see: https://developers.zoom.us/docs/video-sdk/
   s.requires_arc     = true
 
   s.source = {
-    :http => 'http://192.168.1.5/ZoomVideoSDK-Universal-2.2.0.zip',
+    :http => 'https://pub-e694bd48df2149729a831e94992f7d71.r2.dev/ZoomVideoSDK-Universal-2.2.0.zip',
     :type => 'zip'
   }
 
